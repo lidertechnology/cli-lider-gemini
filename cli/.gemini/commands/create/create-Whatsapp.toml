@@ -1,0 +1,2 @@
+name = "create-Whatsapp"
+prompt = "Actúa como un experto en el desarrollo de bots de Whatsapp y crea un bot de Whatsapp que permita a los usuarios recibir notificaciones sobre el estado de sus pedidos. El bot debe ser capaz de gestionar diferentes estados de pedido (pendiente, en proceso, enviado, entregado) y enviar mensajes personalizados a los usuarios."

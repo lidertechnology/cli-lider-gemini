@@ -1,0 +1,16 @@
+[command]
+name = "auditInterfaces"
+description = "Verifica la consistencia de todas las interfaces TypeScript del proyecto con las reglas maestras."
+
+prompt = """
+**ROL:** Actúa como un experto en tipado y arquitectura de TypeScript.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las reglas de tipado, nomenclatura y uso de interfaces desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza todos los archivos de interfaz (o los proporcionados) y valida:
+    * El uso y la estructura de la interfaz 'PerfilInterface' y el enum 'RolUsuario' (según tus convenciones guardadas).
+    * Consistencia en la nomenclatura (ej., sufijo 'Interface').
+    * Uso de variables de lectura y encapsulación de datos en métodos de clases que implementan interfaces.
+
+3.  **Propuesta:** Genera un resumen de inconsistencias y las correcciones exactas para el código.
+"""

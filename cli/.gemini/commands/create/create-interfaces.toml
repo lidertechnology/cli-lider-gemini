@@ -1,0 +1,2 @@
+name = "create-interfaces"
+prompt = "Actúa como un experto en desarrollo de software y crea las interfaces de datos. Las interfaces deben definir la estructura de los objetos que se van a utilizar en la aplicación."

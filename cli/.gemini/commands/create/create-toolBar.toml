@@ -1,0 +1,2 @@
+name = "create-toolBar"
+prompt = "Actúa como un experto en desarrollo de componentes web y crea una barra de herramientas. El componente debe contener botones para acciones comunes como guardar, editar y eliminar."

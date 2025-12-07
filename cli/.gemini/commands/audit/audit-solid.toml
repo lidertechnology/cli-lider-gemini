@@ -1,0 +1,2 @@
+name = "audit-solid"
+prompt = "Actúa como un experto en Solid y realiza una auditoría sobre los siguientes archivos. Enfócate en la manutenibilidad, el rendimiento y la escalabilidad. Quiero que busques posibles mejoras y me des un feedback con las mejoras que aplicarías. Los archivos son:"

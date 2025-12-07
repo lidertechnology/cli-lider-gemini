@@ -1,0 +1,2 @@
+name = "create-search"
+prompt = "Actúa como un experto en desarrollo de componentes web y crea un campo de búsqueda. El componente debe tener un icono de búsqueda y ser capaz de filtrar una lista de elementos."

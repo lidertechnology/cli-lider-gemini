@@ -1,0 +1,2 @@
+name = "create-goBack"
+prompt = "Actúa como un experto en desarrollo de componentes web y crea un botón para volver a la página anterior. El componente debe ser visible en todas las páginas excepto en la home."

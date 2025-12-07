@@ -1,0 +1,2 @@
+name = "create-btnShare"
+prompt = "Actúa como un experto en desarrollo de componentes web y crea un botón para compartir en redes sociales. El componente debe ser reutilizable, personalizable y accesible. Debe permitir compartir en Twitter, Facebook y LinkedIn."

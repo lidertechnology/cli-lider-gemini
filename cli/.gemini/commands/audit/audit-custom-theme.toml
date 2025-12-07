@@ -1,0 +1,13 @@
+[command]
+name = "auditCustomTheme"
+description = "Audita la definición y el uso del tema personalizado de Angular Material."
+
+prompt = """
+**ROL:** Actúa como un experto en Material Design y tematización.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de tematización (paletas, tipografía, densidad) desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza la definición del tema personalizado (usualmente un archivo Sass o TS) y el uso de colores y tipografía en componentes clave.
+
+3.  **Propuesta:** Sugiere ajustes para asegurar la accesibilidad y la consistencia visual del tema personalizado.
+"""

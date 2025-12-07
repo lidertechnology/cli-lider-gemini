@@ -1,0 +1,15 @@
+[command]
+name = "auditConfig"
+description = "Audita la configuración de TypeScript, Angular y Firebase del proyecto."
+
+prompt = """
+**ROL:** Actúa como un arquitecto de configuración de proyectos.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de configuración (ej., tsconfig, variables de entorno) desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza archivos clave de configuración (ej., 'tsconfig.json', 'angular.json', archivos de entorno) y verifica:
+    * Configuración óptima de linting y compilación de TypeScript.
+    * Consistencia en los nombres de variables de entorno y *paths* de importación.
+
+3.  **Propuesta:** Sugiere optimizaciones para mejorar el rendimiento y la consistencia de la configuración.
+"""

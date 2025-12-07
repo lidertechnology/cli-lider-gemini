@@ -1,0 +1,16 @@
+[command]
+name = "auditHtml"
+description = "Audita el marcado HTML de los componentes para asegurar accesibilidad y SEO."
+
+prompt = """
+**ROL:** Actúa como un experto en Accesibilidad (A11y) y SEO.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de marcado HTML y etiquetas semánticas desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza el marcado HTML proporcionado por el usuario y verifica:
+    * El uso de etiquetas semánticas (según la convención de Angular Material).
+    * El uso de atributos ARIA para la accesibilidad.
+    * La estructura lógica del DOM.
+
+3.  **Corrección:** Refactoriza el HTML para que cumpla con los estándares de A11y y SEO.
+"""

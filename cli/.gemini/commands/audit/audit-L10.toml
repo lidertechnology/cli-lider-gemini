@@ -1,0 +1,16 @@
+[command]
+name = "auditL10"
+description = "Audita el código en busca de problemas de localización e internacionalización (i18n)."
+
+prompt = """
+**ROL:** Actúa como un experto en internacionalización de aplicaciones.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones para manejo de texto, formatos de fecha y traducción desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza el código de los componentes y verifica:
+    * El uso de pipes de localización (ej., DatePipe, CurrencyPipe).
+    * La correcta extracción de textos a archivos de traducción.
+    * La ausencia de *strings* fijos que deberían ser traducibles.
+
+3.  **Corrección:** Genera los *placeholders* y las correcciones necesarias para que el código sea amigable con la internacionalización.
+"""

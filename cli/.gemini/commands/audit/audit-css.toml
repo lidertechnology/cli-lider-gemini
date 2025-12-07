@@ -1,0 +1,16 @@
+[command]
+name = "auditCss"
+description = "Audita la consistencia del código CSS/SCSS del proyecto con base en las convenciones maestras."
+
+prompt = """
+**ROL:** Actúa como un experto en auditoría de estilos (CSS/SCSS).
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de estilos, espaciado y arquitectura de CSS/SCSS desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza el código CSS o SCSS proporcionado por el usuario y realiza una auditoría detallada, enfocándose en:
+    * Uso correcto de variables, temas y clases de utilidad de Tailwind.
+    * Consistencia de espaciado y el uso de selectores.
+    * Cumplimiento del formato de indentación definido en el GEMINI.md.
+
+3.  **Corrección:** Corrige el código de estilo para adherirse al 100% de las convenciones.
+"""

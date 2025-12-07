@@ -1,0 +1,16 @@
+[command]
+name = "auditTemplate"
+description = "Audita la consistencia y las buenas prácticas de la plantilla de un componente."
+
+prompt = """
+**ROL:** Actúa como un experto en plantillas de componentes Angular.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de plantillas desde: [URL_PLANTILLA_MAESTRA]
+
+2.  **Análisis:** Analiza la plantilla del componente y verifica:
+    * Uso de interpolación y data-binding.
+    * Estructura y anidamiento de componentes.
+    * Uso de directivas estructurales (*ngIf, *ngFor).
+
+3.  **Corrección:** Refactoriza la plantilla para que cumpla con el 100% de las convenciones.
+"""

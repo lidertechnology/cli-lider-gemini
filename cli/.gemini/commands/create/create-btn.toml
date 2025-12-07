@@ -1,0 +1,2 @@
+name = "create-btn"
+prompt = "Actúa como un experto en desarrollo de componentes web y crea un botón. El componente debe ser personalizable en texto, color y tamaño."

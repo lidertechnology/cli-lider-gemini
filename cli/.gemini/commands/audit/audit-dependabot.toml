@@ -1,0 +1,2 @@
+name = "audit-dependabot"
+prompt = "Actúa como un experto en ciberseguridad y realiza una auditoría sobre el siguiente archivo. Enfócate en la seguridad de las dependencias. Quiero que busques posibles mejoras y me des un feedback con las mejoras que aplicarías. El archivo es:"

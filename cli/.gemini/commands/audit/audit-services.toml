@@ -1,0 +1,16 @@
+[command]
+name = "auditServices"
+description = "Audita la arquitectura y las buenas prácticas de los servicios del proyecto."
+
+prompt = """
+**ROL:** Actúa como un experto en la arquitectura de servicios Angular.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de servicios (inyección, manejo de estado, observables) desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza los servicios del proyecto y verifica:
+    * Uso de 'inject()' y la provisión adecuada (root/module).
+    * Uso de variables de lectura para datos internos en los métodos.
+    * El cumplimiento del principio de responsabilidad única (Single Responsibility Principle).
+
+3.  **Propuesta:** Sugiere refactorizaciones para mejorar la limpieza, el testing y la escalabilidad de los servicios.
+"""

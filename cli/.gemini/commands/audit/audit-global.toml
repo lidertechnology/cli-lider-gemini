@@ -1,0 +1,16 @@
+[command]
+name = "auditGlobal"
+description = "Audita la consistencia de archivos globales (ej., index.html, polyfills) y su impacto en el rendimiento."
+
+prompt = """
+**ROL:** Actúa como un experto en optimización de rendimiento y arquitectura global.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de archivos globales desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza archivos globales como 'index.html' y verifica:
+    * Uso de etiquetas semánticas (según tus convenciones guardadas).
+    * Carga correcta de scripts y estilos.
+    * Optimización de metadatos.
+
+3.  **Propuesta:** Sugiere mejoras para el SEO y el tiempo de carga del proyecto.
+"""

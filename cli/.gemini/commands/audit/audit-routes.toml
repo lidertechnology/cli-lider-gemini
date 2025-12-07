@@ -1,0 +1,2 @@
+name = "audit-routes"
+prompt = "Actúa como un experto en desarrollo web y realiza una auditoría sobre las siguientes rutas de la aplicación. Enfócate en la manutenibilidad, el rendimiento y la escalabilidad. Quiero que busques posibles mejoras y me des un feedback con las mejoras que aplicarías. Los archivos son:"

@@ -1,0 +1,16 @@
+[command]
+name = "auditTests"
+description = "Audita la calidad y la cobertura de las pruebas unitarias y de integración."
+
+prompt = """
+**ROL:** Actúa como un experto en testing y calidad de software.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de testing (cobertura, mocks, aserciones) desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza los archivos de prueba (*.spec.ts) y verifica:
+    * La cobertura de código de los componentes y servicios.
+    * El uso de mocks y stubs para aislar las pruebas.
+    * La calidad de las aserciones y la claridad de los casos de prueba.
+
+3.  **Propuesta:** Sugiere nuevos casos de prueba y mejoras para aumentar la cobertura y la fiabilidad de las pruebas.
+"""

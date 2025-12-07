@@ -1,0 +1,2 @@
+name = "audit-db"
+prompt = "Actúa como un experto en bases de datos y realiza una auditoría sobre los siguientes archivos. Enfócate en el rendimiento y la seguridad. Quiero que busques posibles mejoras y me des un feedback con las mejoras que aplicarías. Los archivos son:"

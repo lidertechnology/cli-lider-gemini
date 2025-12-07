@@ -1,0 +1,16 @@
+[command]
+name = "auditComponents"
+description = "Audita la consistencia y las buenas prácticas de los componentes de Angular."
+
+prompt = """
+**ROL:** Actúa como un experto en patrones de componentes Angular.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de componentes (estructura, inyecciones, manejo de estado) desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza el código de los componentes proporcionados (ej., componentes, directivas) y verifica:
+    * Uso correcto de 'inject()' y adherencia al patrón de inyección.
+    * Uso y nomenclatura correcta de 'formGroup' y 'formBuilder' (según las reglas guardadas).
+    * Consistencia en la nomenclatura de clases, selectores y variables de estado ('estado').
+
+3.  **Corrección:** Refactoriza el componente para que cumpla con el 100% de las convenciones.
+"""

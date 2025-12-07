@@ -1,0 +1,18 @@
+{
+  "name": "cli-lider-gemini",
+  "version": "1.0.0",
+  "description": "Una CLI creada con la ayuda de Gemini para gestionar un proyecto.",
+  "main": "install.js",
+  "bin": {
+    "cli-lider-gemini": "./install.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.3.2"
+  }
+}

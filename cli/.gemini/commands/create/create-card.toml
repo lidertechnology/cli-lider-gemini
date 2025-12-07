@@ -1,0 +1,2 @@
+name = "create-card"
+prompt = "Actúa como un experto en desarrollo de componentes web y crea una tarjeta. El componente debe tener una imagen, un título y una descripción."

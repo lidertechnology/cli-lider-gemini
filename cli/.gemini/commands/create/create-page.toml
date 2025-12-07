@@ -1,0 +1,2 @@
+name = "create-page"
+prompt = "Actúa como un experto en desarrollo web y crea una nueva página. La página debe tener un layout responsive y un contenido de ejemplo."

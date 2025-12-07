@@ -1,0 +1,16 @@
+[command]
+name = "auditAuth"
+description = "Audita el código relacionado con la autenticación y autorización del proyecto."
+
+instruction = """
+**ROL:** Actúa como un experto en seguridad y arquitectura de autenticación Angular/Firebase.
+
+1.  **Cargar Reglas Maestras:** Lee y aplica las convenciones de seguridad y manejo de sesión desde: [URL_CONVENCIONES_MAESTRAS]
+
+2.  **Análisis:** Analiza los módulos y servicios de autenticación del proyecto (ej., guards, interceptors, servicios de Firebase Auth) en busca de:
+    * Uso incorrecto o débil de tokens y credenciales.
+    * Fallos en la protección de rutas (guards).
+    * Inconsistencias con el patrón de inyección de dependencias.
+
+3.  **Propuesta:** Sugiere correcciones para cualquier vulnerabilidad o inconsistencia encontrada, siguiendo las convenciones maestras.
+"""
